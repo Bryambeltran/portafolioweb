@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Bryam Beltrán</title>
+    <link 
+    rel="icon" 
+    type="image/webp" 
+    href="assets/img/icono.webp"
+>
+    <!-- Bootstrap -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+    <!-- Bootstrap Icons -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="encabezado shadow-sm">
+        <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white py-3">
+
+    <section class="container">
+
+        <!-- LOGO -->
+        <a class="navbar-brand fw-bold fs-4 d-flex align-items-center gap-2" href="#">
+
+            <img 
+                src="assets/img/icono.webp" 
+                alt="Logo"
+                class="logo-navbar"
+            >
+            Bryam Beltrán
+        </a>
+                <!-- BOTÓN RESPONSIVE -->
+                <button 
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuNavegacion"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- MENÚ -->
+                <section 
+                    class="collapse navbar-collapse"
+                    id="menuNavegacion"
+                >
+                    <!-- LINKS -->
+                <ul class="navbar-nav mx-auto gap-2">
+                        <li class="nav-item">
+                             <a class="nav-link link-navbar" href="#biografia">
+                                Biografía
+                             </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-navbar" href="#habilidades">
+                                Habilidades
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-navbar" href="#tecnologias">
+                                Tecnologías
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-navbar" href="#proyectos">
+                                Proyectos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-navbar" href="#contacto">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- BOTÓN LOGIN -->
+                    <a href="#" class="btn btn-login px-4"style="background-color: #16a34a; border-color: #16a34a;">
+                        Iniciar sesión
+                    </a>
+                </section>
+            </section>
+        </nav>
+    </header>
+
+<!-- BIOGRAFÍA -->
+<main>
+    <section id="biografia" class="biografia py-5">
+        <section class="container">
+            <section class="row align-items-center gy-5">
+                <!-- FOTO -->
+                <section class="col-lg-3 text-center">
+                    <img 
+                        src="assets/img/foto-perfil.jpg"
+                        alt="Foto de Bryam Beltrán"
+                        class="foto-perfil img-fluid"
+                    >
+                </section>
+                <!-- INFORMACIÓN -->
+                <section class="col-lg-9 text-white">
+                    <h1 class="display-3 fw-bold">
+                        Bryam Beltrán Barrientos
+                    </h1>
+
+                    <h2 class="fw-semibold mb-4">
+                        Estudiante de Técnico en Informática en la Universidad Católica de Temuco.
+                    </h2>
+
+                    <p class="lead">
+                        Actualmente poniendo en práctica mis conocimientos
+                        en desarrollo web, bases de datos y programación,
+                        creando proyectos modernos y funcionales para seguir
+                        mejorando mis habilidades como desarrollador.
+                    </p>
+                </section>
+            </section>
+        </section>
+    </section>
+</main>
+
+<!-- HABILIDADES -->
+<section id="habilidades" class="habilidades py-5">
+    <section class="container">
+        <!-- TÍTULO -->
+        <section class="text-center mb-5">
+            <h2 class="display-4 fw-bold">
+                Habilidades
+            </h2>
+            <p class="lead text-secondary">
+                Áreas en las que he desarrollado experiencia durante mi formación.
+            </p>
+        </section>
+
+        <!-- GRID -->
+        <section class="row g-4">
+            <!-- FRONTEND -->
+            <section class="col-lg-6">
+                <article class="bloque-habilidad">
+                    <section class="d-flex justify-content-between">
+                        <h3>Frontend Development</h3>
+                        <span>80 XP</span>
+                    </section>
+                    <section class="barra-minecraft" data-xp="8"></section>
+                </article>
+            </section>
+
+            <!-- BACKEND -->
+            <section class="col-lg-6">
+                <article class="bloque-habilidad">
+                    <section class="d-flex justify-content-between">
+                        <h3>Backend Development</h3>
+                        <span>65 XP</span>
+                    </section>
+                    <section class="barra-minecraft" data-xp="6"></section>
+                </article>
+            </section>
+
+            <!-- DATABASE -->
+            <section class="col-lg-6">
+                <article class="bloque-habilidad">
+                    <section class="d-flex justify-content-between">
+                        <h3>Database Management</h3>
+                        <span>70 XP</span>
+                    </section>
+                    <section class="barra-minecraft" data-xp="7"></section>
+                </article>
+            </section>
+
+            <!-- MOBILE -->
+            <section class="col-lg-6">
+                <article class="bloque-habilidad">
+                    <section class="d-flex justify-content-between">
+                        <h3>Mobile Development</h3>
+                        <span>40 XP</span>
+                    </section>
+                    <section class="barra-minecraft" data-xp="4"></section>
+                </article>
+            </section>
+        </section>
+    </section>
+</section>
+
+<!-- TECNOLOGÍAS -->
+<section id="tecnologias" class="tecnologias py-5">
+    <section class="container">
+        <!-- TÍTULO -->
+        <section class="text-center mb-5">
+            <h2 class="display-4 fw-bold">
+                Tecnologías Dominadas
+            </h2>
+
+            <p class="lead text-secondary">
+                Tecnologías y herramientas que utilizo durante mi formación
+                y desarrollo de proyectos web.
+            </p>
+        </section>
+
+        <!-- GRID -->
+        <section class="row g-4">
+            <!-- PYTHON -->
+            <section class="col-md-6 col-lg-3">
+                <article class="tarjeta-tecnologia text-center">
+                    <i class="bi bi-filetype-py tecnologia-icono"></i>
+                    <h3>Python</h3>
+                    <p>Programación</p>
+                </article>
+            </section>
+
+            <!-- HTML -->
+            <section class="col-md-6 col-lg-3">
+                <article class="tarjeta-tecnologia text-center">
+                    <i class="bi bi-filetype-html tecnologia-icono"></i>
+                    <h3>HTML5</h3>
+                    <p>Estructura Web</p>
+                </article>
+            </section>
+
+            <!-- CSS -->
+            <section class="col-md-6 col-lg-3">
+                <article class="tarjeta-tecnologia text-center">
+                    <i class="bi bi-filetype-css tecnologia-icono"></i>
+                    <h3>CSS3</h3>
+                    <p>Diseño Web</p>
+                </article>
+            </section>
+
+            <!-- JAVA -->
+            <section class="col-md-6 col-lg-3">
+                <article class="tarjeta-tecnologia text-center">
+                    <i class="bi bi-cup-hot tecnologia-icono"></i>
+                    <h3>Java</h3>
+                    <p>Backend</p>
+                </article>
+            </section>
+
+            <!-- JAVASCRIPT -->
+            <section class="col-md-6 col-lg-3">
+                <article class="tarjeta-tecnologia text-center">
+                    <i class="bi bi-filetype-js tecnologia-icono"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interactividad</p>
+                </article>
+            </section>
+
+            <!-- BOOTSTRAP -->
+            <section class="col-md-6 col-lg-3">
+                <article class="tarjeta-tecnologia text-center">
+                    <i class="bi bi-bootstrap tecnologia-icono"></i>
+                    <h3>Bootstrap</h3>
+                    <p>Framework CSS</p>
+                </article>
+            </section>
+
+            <!-- PHP -->
+            <section class="col-md-6 col-lg-3">
+                <article class="tarjeta-tecnologia text-center">
+                    <i class="bi bi-filetype-php tecnologia-icono"></i>
+                    <h3>PHP</h3>
+                    <p>Backend</p>
+                </article>
+            </section>
+
+            <!-- MYSQL -->
+            <section class="col-md-6 col-lg-3">
+                <article class="tarjeta-tecnologia text-center">
+                    <i class="bi bi-database tecnologia-icono"></i>
+                    <h3>MySQL</h3>
+                    <p>Base de Datos</p>
+                </article>
+            </section>
+
+            <!-- MONGODB -->
+            <section class="col-md-6 col-lg-3">
+                <article class="tarjeta-tecnologia text-center">
+                    <i class="bi bi-server tecnologia-icono"></i>
+                    <h3>MongoDB</h3>
+                    <p>NoSQL</p>
+                </article>
+            </section>
+
+            <!-- GIT -->
+            <section class="col-md-6 col-lg-3">
+                <article class="tarjeta-tecnologia text-center">
+                    <i class="bi bi-git tecnologia-icono"></i>
+                    <h3>Git</h3>
+                    <p>Control de versiones</p>
+                </article>
+            </section>
+
+        </section>
+
+    </section>
+
+<!-- PROYECTOS -->
+
+<section id="proyectos" class="proyectos py-5">
+
+    <section class="container">
+
+        <!-- TÍTULO -->
+        <section class="text-center mb-5">
+            <h2 class="display-4 fw-bold">
+                Proyectos Destacados
+            </h2>
+            <p class="lead text-secondary">
+                Algunos proyectos desarrollados durante mi formación.
+            </p>
+
+        </section>
+
+        <!-- GRID -->
+        <section class="row g-4">
+            <!-- PROYECTO 1 -->
+            <section class="col-lg-4">
+                <a href="proyectos/proyecto1/index.html" class="text-decoration-none">
+                    <article class="tarjeta-proyecto">
+                        <img 
+                            src="assets/img/proyecto1.jpg"
+                            alt="Proyecto 1"
+                            class="img-fluid imagen-proyecto"
+                        >
+
+                        <section class="contenido-proyecto">
+                            <h3>Proyecto 1</h3>
+                            <p>
+                                Desarrollo web realizado utilizando HTML, CSS y JavaScript.
+                            </p>
+
+                        </section>
+
+                    </article>
+
+                </a>
+
+            </section>
+
+            <!-- PROYECTO 2 -->
+            <section class="col-lg-4">
+
+                <a href="https://github.com/Bryambeltran/calculadora-con-python" class="text-decoration-none">
+
+                    <article class="tarjeta-proyecto">
+
+                        <img 
+                            src="assets/img/proyecto2.jpg"
+                            alt="Proyecto 2"
+                            class="img-fluid imagen-proyecto"
+                        >
+
+                        <section class="contenido-proyecto">
+
+                            <h3>Proyecto 2</h3>
+
+                            <p>
+                                calculadora hecha solo con python
+                            </p>
+
+                        </section>
+
+                    </article>
+
+                </a>
+
+            </section>
+
+            <!-- PROYECTO 3 -->
+            <section class="col-lg-4">
+
+                <a href="proyectos/proyecto3/index.html" class="text-decoration-none">
+
+                    <article class="tarjeta-proyecto">
+
+                        <img 
+                            src="assets/img/proyecto3.jpg"
+                            alt="Proyecto 3"
+                            class="img-fluid imagen-proyecto"
+                        >
+
+                        <section class="contenido-proyecto">
+                            <h3>Proyecto 3</h3>
+                            <p>
+                                Sistema dinámico utilizando PHP y bases de datos.
+                            </p>
+                        </section>
+                    </article>
+                </a>
+            </section>
+        </section>
+    </section>
+
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contacto py-5">
+    <section class="container">
+
+        <!-- TÍTULO -->
+        <section class="text-center mb-5">
+            <h2 class="display-4 fw-bold">
+                Contacto
+            </h2>
+
+            <p class="lead text-secondary">
+                correos y numeros falsos, colocado solo por completar 
+            </p>
+
+        </section>
+
+        <!-- GRID -->
+        <section class="row g-5 align-items-start">
+            <!-- INFORMACIÓN -->
+            <section class="col-lg-5">
+                <article class="informacion-contacto">
+                    <h3 class="fw-bold mb-3">
+                        Información de contacto
+                    </h3>
+
+                    <p class="text-secondary mb-4">
+                        Estoy disponible para colaborar en proyectos y seguir
+                        desarrollando experiencia en el área informática.
+                    </p>
+
+                    <!-- EMAIL -->
+                    <article class="tarjeta-contacto">
+
+                        <i class="bi bi-envelope-fill icono-contacto"></i>
+
+                        <section>
+                            <span class="titulo-contacto">
+                                Correo
+                            </span>
+
+                            <p class="mb-0">
+                                bryam@email.com
+                            </p>
+
+                        </section>
+
+                    </article>
+
+                    <!-- TELÉFONO -->
+                    <article class="tarjeta-contacto">
+
+                        <i class="bi bi-telephone-fill icono-contacto"></i>
+
+                        <section>
+
+                            <span class="titulo-contacto">
+                                Teléfono
+                            </span>
+
+                            <p class="mb-0">
+                                +56 9 1234 5678
+                            </p>
+
+                        </section>
+
+                    </article>
+
+                    <!-- UBICACIÓN -->
+                    <article class="tarjeta-contacto">
+                        <i class="bi bi-geo-alt-fill icono-contacto"></i>
+
+                        <section>
+                            <span class="titulo-contacto">
+                                Ubicación
+                            </span>
+
+                            <p class="mb-0">
+                                Santiago, Chile
+                            </p>
+
+                        </section>
+                    </article>
+
+                    <!-- REDES -->
+                    <section class="redes-sociales mt-4">
+
+                        <h4 class="fw-semibold mb-3">
+                            Redes sociales
+                        </h4>
+
+                        <section class="d-flex gap-3">
+
+                            <a href="#" class="icono-red">
+                                <i class="bi bi-github"></i>
+                            </a>
+
+                            <a href="#" class="icono-red">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+
+                            <a href="#" class="icono-red">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </section>
+                    </section>
+                </article>
+            </section>
+
+            <!-- FORMULARIO -->
+            <section class="col-lg-7">
+                <article class="formulario-contacto">
+                    <h3 class="fw-bold mb-4">
+                        enviame un correo, solo si iniciaste sesión.
+                    </h3>
+                    <form>
+
+                        <!-- NOMBRE -->
+                        <section class="mb-4">
+                            <label for="nombre" class="form-label">
+                                Nombre
+                            </label>
+
+                            <input 
+                                type="text"
+                                id="nombre"
+                                class="form-control"
+                                placeholder="Tu nombre"
+                            >
+                        </section>
+
+                        <!-- EMAIL -->
+                        <section class="mb-4">
+                            <label for="correo" class="form-label">
+                                Correo
+                            </label>
+
+                            <input 
+                                type="email"
+                                id="correo"
+                                class="form-control"
+                                placeholder="correo@email.com" >
+                        </section>
+
+                        <!-- MENSAJE -->
+                        <section class="mb-4">
+                            <label for="mensaje" class="form-label">
+                                Mensaje
+                            </label>
+                            <textarea 
+                                id="mensaje"
+                                class="form-control"
+                                rows="6"
+                                placeholder="Escribe tu mensaje..."
+                            ></textarea>
+                        </section>
+
+                        
+                        <!-- BOTÓN -->
+                        <button type="submit" class="btn text-white w-100 py-3" style="background-color: #16a34a; border-color: #16a34a;">
+                             <i class="bi bi-send-fill"></i> Enviar
+                        </button>
+                    </form>
+                </article>
+            </section>
+        </section>
+    </section>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer py-5">
+
+    <section class="container">
+
+        <!-- GRID -->
+        <section class="row g-5">
+
+            <!-- SOBRE MÍ -->
+            <section class="col-lg-4">
+
+                <h3 class="footer-titulo">
+                    Bryam Beltrán
+                </h3>
+
+                <p class="footer-texto">
+                    Estudiante de Técnico en Informática enfocado en
+                    desarrollo web, bases de datos y programación.
+                </p>
+
+            </section>
+
+            <!-- NAVEGACIÓN -->
+            <section class="col-lg-4">
+
+                <h3 class="footer-titulo">
+                    Navegación
+                </h3>
+
+                <nav class="footer-links">
+
+                    <a href="#inicio">
+                        Inicio
+                    </a>
+
+                    <a href="#biografia">
+                        Biografía
+                    </a>
+
+                    <a href="#tecnologias">
+                        Tecnologías
+                    </a>
+
+                    <a href="#proyectos">
+                        Proyectos
+                    </a>
+
+                    <a href="#contacto">
+                        Contacto
+                    </a>
+
+                </nav>
+
+            </section>
+
+            <!-- CONTACTO -->
+            <section class="col-lg-4">
+
+                <h3 class="footer-titulo">
+                    Contacto
+                </h3>
+
+                <section class="footer-contacto">
+
+                    <p>
+                        <i class="bi bi-envelope-fill"></i>
+                        bryam@email.com
+                    </p>
+
+                    <p>
+                        <i class="bi bi-telephone-fill"></i>
+                        +56 9 1234 5678
+                    </p>
+
+                    <p>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Santiago, Chile
+                    </p>
+
+                </section>
+
+                <!-- REDES -->
+                <section class="footer-redes mt-4">
+
+                    <a href="#">
+                        <i class="bi bi-github"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <!-- DIVISOR -->
+        <hr class="footer-linea">
+
+        <!-- COPYRIGHT -->
+        <section class="text-center">
+
+            <p class="footer-copy mb-0">
+                © 2026 Bryam Beltrán Barrientos — Todos los derechos reservados.
+            </p>
+
+        </section>
+
+    </section>
+
+</footer>
+</section>
+    <!-- Bootstrap JS -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+     
+    <!-- link al js -->
+<script src="assets/js/app.js"></script>
+</body>
+</html>
